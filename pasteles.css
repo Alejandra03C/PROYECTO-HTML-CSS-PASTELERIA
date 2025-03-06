@@ -1,0 +1,193 @@
+body {
+    background-color: #635a42;
+    margin: 0;
+    padding: 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+
+/*Navegador*/
+.saludo {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 1%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px; 
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #213620
+}
+
+
+.linea {
+    position: relative;
+}
+
+/*Portada principal */
+.portada {
+    display: flex;
+    width: 100%;
+}
+
+.imagen {
+    width: 50%;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0% 0% 30% 0%;
+}
+
+.texto-marco {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 30px;
+
+}
+
+.marco {
+    border: 6px solid #213620;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+}
+
+.marco p {
+    font-size: 70px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;    
+}
+
+
+
+
+
+/*Galeria de imagenes*/
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    padding: 30px; 
+    margin: 40px;   
+    max-width: 1300px;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 0px; 
+    max-width: 80%;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;    
+}
+
+.menu-item p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.menu-item h2 {
+    font-size: 25px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.menu-item {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 0px;
+    width: 330px;   
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.menu-item p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+
+.menu-item h2 {
+    font-size: 30px;
+} */
