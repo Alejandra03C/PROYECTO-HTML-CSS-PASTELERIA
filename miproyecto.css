@@ -13,13 +13,11 @@ nav ul {
     display: flex;
     justify-content: end;
     position: relative;
-    
 }
 
 
 nav li {
     margin: 0 10px;
-    
 }
 
 nav a {
@@ -34,13 +32,8 @@ nav a:hover {
 }
 
 
-
-
-
 .linea {
     position: relative;
-    
-
 }
 
 
@@ -78,8 +71,8 @@ img {
 }
 
 
-/* Slider principal */
 
+/* Slider principal */
 
 .slider-box {
     width: 1263px;
@@ -123,24 +116,14 @@ img {
 }
 
 
-/* Endulzamos tu paladar */
 
+/* Endulzamos tu paladar */
 .frase h1 {
     margin-top: 40px;
-    animation: animacion-titulo 1s ease-in-out infinite alternate;
     color: white;
 }
 
     
-@keyframes animacion-titulo {
-0% {
-    transform: translateY(0);
-}
-100% {
-    transform: translateY(-10px);
-}
-}  
-
 /* Menu */
 
 .menu {
@@ -196,10 +179,11 @@ img {
     margin-top: 40px;   
 }
 
-.imagen {
+.imagen { 
     padding-top: 50px;
     width: 1263px;
 }
+
 
 .texto {
     color: white;
@@ -226,7 +210,7 @@ img {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -253,3 +237,30 @@ img {
 
  
 
+footer {
+    background-color: #213620;
+    color: #fff;
+    padding: 10px;
+    margin-top: 5%;
+    height: 80px;
+    display: flex; 
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.redes-sociales {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 5px;
+}
+
+.redes-sociales i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.redes-sociales i:hover {
+    color: black; 
+}

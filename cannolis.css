@@ -1,16 +1,14 @@
 body {
     background-color: #635a42;
-    margin: 0 auto;
+    margin: 0;
     padding: 0px;
 }
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0px;
     font-family: "Cormorant Garamond", serif;
 }
-
-
 
 
 /*Navegador*/
@@ -28,10 +26,12 @@ nav ul {
     display: flex;
     justify-content: end;
     position: relative;
+    
 }
 
 nav li {
     margin: 0 10px;
+    
 }
 
 nav a {
@@ -49,7 +49,6 @@ nav a:hover {
 .linea {
     position: relative;
 }
-
 
 /*Portada principal */
 .portada {
@@ -76,7 +75,11 @@ nav a:hover {
     color: white;
     text-shadow: 30px;
     animation: animacion-titulo 1s ease-in-out infinite alternate;
+
 }
+
+
+
 
 @keyframes animacion-titulo {
 0% {
@@ -103,26 +106,15 @@ transform: translateY(-10px);
 
 
 
-
-
 /*Galeria de imagenes*/
 .menu {
     display: grid;
-    grid-template-columns: repeat(3, 25%);
-    padding-top: 8%; 
-    margin: 0 auto;
-    max-width: 1200px;
-    gap: 30px;
-    justify-content: center;     
-}
-
-.menu {
-    display: grid;
-    grid-template-columns: repeat(3, 25%);
+    grid-template-columns: repeat(4, 25%);
     padding: 40px; 
     margin: 40px;
     max-width: 1300px;
     gap: 20px; 
+    
 }
 
 .menu-item {
@@ -132,6 +124,7 @@ transform: translateY(-10px);
     text-align: center;
     padding: 0px; 
     max-width: 80%;
+    height: 80%;
     
 }
 
@@ -139,7 +132,7 @@ transform: translateY(-10px);
     width: 100%;
     height: auto;
     border-radius: 10px 10px 0 0;
-      
+    height: 70%;
 }
 
 /*.menu-item p {
@@ -148,12 +141,14 @@ transform: translateY(-10px);
 }*/
 
 .menu-item h2 {
-    font-size: 22px;
-    text-align: center; 
-    padding: 10px;  
+    font-size: 23px;
+    text-align: center;
+    margin-top: 8%;
 }
 
 
+
+/*Pie de pagina*/
 
 footer {
     background-color: #213620;
@@ -183,66 +178,3 @@ footer {
     color: black; 
 }
 
-  
-  
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.menu {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    margin-top: 70px;
-}
-
-.menu-item {
-    background-color: whitesmoke;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    padding: 0px;
-    width: 330px;   
-}
-
-.menu-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px 10px 0 0;
-}
-
-.menu-item p {
-    font-size: 25px;
-    line-height: 1.5;
-}
-
-
-.menu-item h2 {
-    font-size: 30px;
-} */

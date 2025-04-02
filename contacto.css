@@ -1,0 +1,143 @@
+body {
+     background-image: url("imagenes-contacto/pexels-ofir-eliav-2397652-7783241.jpg");        background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    padding-top: -30px;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Cormorant Garamond", serif;
+}
+
+
+/*Navegador*/
+nav {
+    background-color: #635a42;
+}
+
+nav h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 1%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px; 
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #213620
+}
+
+
+.linea {
+    position: relative;
+}
+
+/*Formulario*/
+.contenedor-formulario {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 40px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    margin-top: 10%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #635a42;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #213620;
+}
+
+
+
+/*Pie de pagina*/
+
+footer {
+    background-color: #213620;
+    color: #fff;
+    padding: 10px;
+    margin-top: 5%;
+    height: 80px;
+    display: flex; 
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.redes-sociales {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 5px;
+}
+
+.redes-sociales i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.redes-sociales i:hover {
+    color: black; 
+}
